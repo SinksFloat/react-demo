@@ -1,0 +1,37 @@
+{
+  "name": "skeleton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "skr dev",
+    "build": "skr build --clean",
+    "build-test": "TEST=true skr build --clean --mode=development",
+    "lint": "skr lint --strict",
+    "lint-staged": "npm run lint -- --staged"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-route": "^1.0.3",
+    "react-router-dom": "^6.21.0"
+  },
+  "devDependencies": {
+    "@reskript/cli": "^6.1.0",
+    "@reskript/cli-build": "^6.1.0",
+    "@reskript/cli-dev": "^6.1.0",
+    "@reskript/cli-lint": "^6.1.0",
+    "@reskript/config-lint": "^6.1.0",
+    "@reskript/settings": "^6.1.0",
+    "@types/react-dom": "^18.2.18",
+    "@types/react-router-dom": "^5.3.3",
+    "antd": "^5.12.2",
+    "eslint": "^8.56.0",
+    "stylelint": "^16.0.2",
+    "typescript": "^5.3.3",
+    "webpack": "^5.89.0"
+  }
+}
